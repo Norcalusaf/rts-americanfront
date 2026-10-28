@@ -1,0 +1,851 @@
+{
+  "status": "design targets, not a built level",
+  "units": "meters",
+  "unreal_units_per_meter": 100,
+  "origin": "southwest",
+  "axes": {
+    "x": "east",
+    "y": "north",
+    "z": "up"
+  },
+  "playable_size": [
+    3200,
+    2800
+  ],
+  "pois": [
+    {
+      "id": "01",
+      "name": "Allied staging",
+      "center_xy": [
+        1600,
+        220
+      ],
+      "footprint_wh": [
+        500,
+        220
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Miller Farm",
+      "center_xy": [
+        950,
+        850
+      ],
+      "footprint_wh": [
+        500,
+        380
+      ]
+    },
+    {
+      "id": "03",
+      "name": "Bell Crossroads",
+      "center_xy": [
+        2250,
+        900
+      ],
+      "footprint_wh": [
+        480,
+        380
+      ]
+    },
+    {
+      "id": "04",
+      "name": "Central bridge",
+      "center_xy": [
+        1600,
+        1300
+      ],
+      "footprint_wh": [
+        160,
+        120
+      ]
+    },
+    {
+      "id": "05",
+      "name": "East ford",
+      "center_xy": [
+        2700,
+        1320
+      ],
+      "footprint_wh": [
+        200,
+        160
+      ]
+    },
+    {
+      "id": "06",
+      "name": "Artillery ridge",
+      "center_xy": [
+        1650,
+        1700
+      ],
+      "footprint_wh": [
+        700,
+        360
+      ]
+    },
+    {
+      "id": "07",
+      "name": "Pine woods",
+      "center_xy": [
+        500,
+        1600
+      ],
+      "footprint_wh": [
+        600,
+        700
+      ]
+    },
+    {
+      "id": "08",
+      "name": "South suburbs",
+      "center_xy": [
+        1400,
+        2150
+      ],
+      "footprint_wh": [
+        1200,
+        350
+      ]
+    },
+    {
+      "id": "09",
+      "name": "Rail yard",
+      "center_xy": [
+        2600,
+        2260
+      ],
+      "footprint_wh": [
+        650,
+        650
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Courthouse",
+      "center_xy": [
+        1600,
+        2530
+      ],
+      "footprint_wh": [
+        700,
+        400
+      ]
+    },
+    {
+      "id": "11",
+      "name": "West bridge",
+      "center_xy": [
+        550,
+        1280
+      ],
+      "footprint_wh": [
+        160,
+        120
+      ]
+    }
+  ],
+  "sector_y_bounds": {
+    "farms": [
+      0,
+      1380
+    ],
+    "ridge": [
+      1380,
+      1950
+    ],
+    "city": [
+      1950,
+      2800
+    ]
+  },
+  "cameras": [
+    {
+      "preset": 1,
+      "height_above_ground_m": 18,
+      "downward_pitch_degrees": 45,
+      "fov_degrees": 50
+    },
+    {
+      "preset": 2,
+      "height_above_ground_m": 35,
+      "downward_pitch_degrees": 50,
+      "fov_degrees": 50
+    },
+    {
+      "preset": 3,
+      "height_above_ground_m": 65,
+      "downward_pitch_degrees": 55,
+      "fov_degrees": 50
+    },
+    {
+      "preset": 4,
+      "height_above_ground_m": 110,
+      "downward_pitch_degrees": 60,
+      "fov_degrees": 50
+    },
+    {
+      "preset": 5,
+      "height_above_ground_m": 180,
+      "downward_pitch_degrees": 65,
+      "fov_degrees": 50
+    },
+    {
+      "preset": 6,
+      "height_above_ground_m": 300,
+      "downward_pitch_degrees": 75,
+      "fov_degrees": 50
+    }
+  ],
+  "revision": 2,
+  "allied_deployment": [
+    {
+      "id": "U1",
+      "role": "US rifle squad",
+      "xy": [
+        750,
+        590
+      ]
+    },
+    {
+      "id": "U2",
+      "role": "US rifle squad",
+      "xy": [
+        1150,
+        620
+      ]
+    },
+    {
+      "id": "U3",
+      "role": "US rifle squad",
+      "xy": [
+        2050,
+        620
+      ]
+    },
+    {
+      "id": "U4",
+      "role": "US rifle squad",
+      "xy": [
+        2450,
+        600
+      ]
+    },
+    {
+      "id": "C1",
+      "role": "Canadian section",
+      "xy": [
+        600,
+        410
+      ]
+    },
+    {
+      "id": "C2",
+      "role": "Canadian section",
+      "xy": [
+        2650,
+        410
+      ]
+    },
+    {
+      "id": "AT1",
+      "role": "Antitank team",
+      "xy": [
+        1350,
+        560
+      ]
+    },
+    {
+      "id": "AT2",
+      "role": "Antitank team",
+      "xy": [
+        1850,
+        560
+      ]
+    },
+    {
+      "id": "S",
+      "role": "Scout/sniper team",
+      "xy": [
+        380,
+        650
+      ]
+    },
+    {
+      "id": "M",
+      "role": "Mortar detachment",
+      "xy": [
+        1600,
+        360
+      ]
+    },
+    {
+      "id": "T1",
+      "role": "Sherman",
+      "xy": [
+        1250,
+        350
+      ]
+    },
+    {
+      "id": "T2",
+      "role": "Sherman",
+      "xy": [
+        1950,
+        350
+      ]
+    },
+    {
+      "id": "TR1",
+      "role": "Transport",
+      "xy": [
+        1400,
+        180
+      ]
+    },
+    {
+      "id": "TR2",
+      "role": "Transport",
+      "xy": [
+        1600,
+        180
+      ]
+    },
+    {
+      "id": "TR3",
+      "role": "Transport",
+      "xy": [
+        1800,
+        180
+      ]
+    }
+  ],
+  "enemy_deployment": [
+    {
+      "id": "E1",
+      "xy": [
+        700,
+        1040
+      ]
+    },
+    {
+      "id": "E2",
+      "xy": [
+        1150,
+        1080
+      ]
+    },
+    {
+      "id": "E3",
+      "xy": [
+        2100,
+        1100
+      ]
+    },
+    {
+      "id": "E4",
+      "xy": [
+        2450,
+        1190
+      ]
+    },
+    {
+      "id": "E5",
+      "xy": [
+        1050,
+        1590
+      ]
+    },
+    {
+      "id": "E6",
+      "xy": [
+        1600,
+        1520
+      ]
+    },
+    {
+      "id": "E7",
+      "xy": [
+        2200,
+        1840
+      ]
+    },
+    {
+      "id": "E8",
+      "xy": [
+        1000,
+        2050
+      ]
+    },
+    {
+      "id": "E9",
+      "xy": [
+        1750,
+        2070
+      ]
+    },
+    {
+      "id": "E10",
+      "xy": [
+        2470,
+        2070
+      ]
+    },
+    {
+      "id": "E11",
+      "xy": [
+        1300,
+        2480
+      ]
+    },
+    {
+      "id": "E12",
+      "xy": [
+        1900,
+        2550
+      ]
+    },
+    {
+      "id": "AX1",
+      "xy": [
+        1200,
+        1950
+      ]
+    },
+    {
+      "id": "AX2",
+      "xy": [
+        2700,
+        2430
+      ]
+    },
+    {
+      "id": "AC",
+      "xy": [
+        2300,
+        1810
+      ]
+    },
+    {
+      "id": "G1",
+      "xy": [
+        1350,
+        1720
+      ]
+    },
+    {
+      "id": "G2",
+      "xy": [
+        1650,
+        1790
+      ]
+    },
+    {
+      "id": "G3",
+      "xy": [
+        1950,
+        1720
+      ]
+    },
+    {
+      "id": "F1",
+      "xy": [
+        800,
+        920
+      ]
+    },
+    {
+      "id": "K1",
+      "xy": [
+        2380,
+        950
+      ]
+    },
+    {
+      "id": "F2",
+      "xy": [
+        2250,
+        2360
+      ]
+    },
+    {
+      "id": "F3",
+      "xy": [
+        2000,
+        2400
+      ]
+    }
+  ],
+  "road_polylines": [
+    [
+      [
+        1600,
+        0
+      ],
+      [
+        1600,
+        2800
+      ]
+    ],
+    [
+      [
+        1600,
+        450
+      ],
+      [
+        950,
+        850
+      ],
+      [
+        550,
+        1280
+      ],
+      [
+        650,
+        1800
+      ],
+      [
+        1000,
+        2150
+      ],
+      [
+        1150,
+        2530
+      ]
+    ],
+    [
+      [
+        1600,
+        450
+      ],
+      [
+        2250,
+        900
+      ],
+      [
+        2700,
+        1320
+      ],
+      [
+        2750,
+        1800
+      ],
+      [
+        2600,
+        2260
+      ],
+      [
+        2250,
+        2550
+      ]
+    ],
+    [
+      [
+        300,
+        450
+      ],
+      [
+        300,
+        1050
+      ],
+      [
+        550,
+        1280
+      ],
+      [
+        300,
+        1750
+      ],
+      [
+        550,
+        2050
+      ],
+      [
+        850,
+        2350
+      ],
+      [
+        1150,
+        2530
+      ],
+      [
+        1600,
+        2700
+      ],
+      [
+        2250,
+        2550
+      ]
+    ],
+    [
+      [
+        2900,
+        450
+      ],
+      [
+        2950,
+        1050
+      ],
+      [
+        2700,
+        1320
+      ],
+      [
+        2950,
+        1800
+      ],
+      [
+        2900,
+        2450
+      ],
+      [
+        2250,
+        2550
+      ]
+    ],
+    [
+      [
+        550,
+        720
+      ],
+      [
+        950,
+        650
+      ],
+      [
+        1600,
+        700
+      ],
+      [
+        2250,
+        700
+      ],
+      [
+        2750,
+        800
+      ]
+    ],
+    [
+      [
+        550,
+        1120
+      ],
+      [
+        1000,
+        1150
+      ],
+      [
+        1600,
+        1120
+      ],
+      [
+        2250,
+        1180
+      ],
+      [
+        2800,
+        1130
+      ]
+    ],
+    [
+      [
+        550,
+        1450
+      ],
+      [
+        1100,
+        1450
+      ],
+      [
+        1600,
+        1500
+      ],
+      [
+        2250,
+        1500
+      ],
+      [
+        2750,
+        1450
+      ]
+    ],
+    [
+      [
+        650,
+        1900
+      ],
+      [
+        1150,
+        1900
+      ],
+      [
+        1650,
+        1950
+      ],
+      [
+        2200,
+        1900
+      ],
+      [
+        2750,
+        1900
+      ]
+    ],
+    [
+      [
+        850,
+        2200
+      ],
+      [
+        1600,
+        2250
+      ],
+      [
+        2600,
+        2260
+      ]
+    ],
+    [
+      [
+        1150,
+        2530
+      ],
+      [
+        1600,
+        2530
+      ],
+      [
+        2250,
+        2550
+      ]
+    ]
+  ],
+  "trench_baselines": [
+    {
+      "side": "allied",
+      "points": [
+        [
+          500,
+          600
+        ],
+        [
+          900,
+          640
+        ],
+        [
+          1300,
+          650
+        ]
+      ]
+    },
+    {
+      "side": "allied",
+      "points": [
+        [
+          1900,
+          650
+        ],
+        [
+          2300,
+          660
+        ],
+        [
+          2700,
+          610
+        ]
+      ]
+    },
+    {
+      "side": "enemy",
+      "points": [
+        [
+          650,
+          1000
+        ],
+        [
+          950,
+          1040
+        ],
+        [
+          1250,
+          1030
+        ]
+      ]
+    },
+    {
+      "side": "enemy",
+      "points": [
+        [
+          1950,
+          1060
+        ],
+        [
+          2250,
+          1090
+        ],
+        [
+          2650,
+          1040
+        ]
+      ]
+    },
+    {
+      "side": "enemy",
+      "points": [
+        [
+          1050,
+          1550
+        ],
+        [
+          1450,
+          1580
+        ],
+        [
+          1950,
+          1550
+        ],
+        [
+          2200,
+          1600
+        ]
+      ]
+    },
+    {
+      "side": "enemy",
+      "points": [
+        [
+          850,
+          2030
+        ],
+        [
+          1250,
+          2050
+        ],
+        [
+          1850,
+          2020
+        ]
+      ]
+    },
+    {
+      "side": "enemy",
+      "points": [
+        [
+          2350,
+          2020
+        ],
+        [
+          2700,
+          2050
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Planning view: all enemy placements revealed, gameplay uses fog of war.",
+    "No tank-proof continuous trench wall; preserve traffic gaps and crossings.",
+    "Reinforcement E4 is farm reserve, E7 ridge reserve, E12 city reserve.",
+    "F1 F2 F3 fictional collaborators; K1 Klan auxiliary; AC armored car; AX tanks."
+  ]
+}
